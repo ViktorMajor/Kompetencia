@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  color: #333;
+  padding: 20px;
+}
+header {
+  margin-bottom: 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+nav li {
+  background: #f2f2f2;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+h2 {
+  margin-bottom: 10px;
+  color: #222;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.topic {
+  margin-bottom: 15px;
+}
+.myth-fact {
+  background: #f9f9f9;
+  padding: 10px;
+  border-left: 4px solid #ccc;
+  margin-top: 5px;
+}
+.video {
+  margin: 15px 0;
+}
+ul.tips {
+  list-style: disc inside;
+}
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
